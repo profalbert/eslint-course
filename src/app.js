@@ -39,6 +39,7 @@ const newRut = { ...rut }
 newRut.name = 'new'
 console.log(rut.name, newRut.name)
 
+
 // export class Post {
 //   constructor(title, img) {
 //     this.title =
