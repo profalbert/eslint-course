@@ -26,10 +26,10 @@
 
 const foo = 2;
 const fo4o = 24;
-let tuu = 55;
+let tuu = 55
 tuu = 66;
 
-console.log (foo, fo4o, tuu);
+console.log(foo, fo4o, tuu);
 
 
 const rut = {
