@@ -7,7 +7,6 @@
   "extends": ["airbnb/base"],
   "rules": {
     "semi": "off",
-    "no-console": "off",
     "no-multiple-empty-lines": "off",
     "no-unused-vars": "warn",
     "linebreak-style": "off"
