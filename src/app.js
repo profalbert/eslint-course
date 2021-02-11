@@ -8,14 +8,13 @@ export default class Post {
   toString() {
     return JSON.stringify(
       {
-        title:
-        this.title,
+        title: this.title,
         date: this.date.toString(),
         img: this.img,
       },
       null,
       2,
-    );
+    )
   }
 
   get upperCaseTitle() {
@@ -29,11 +28,22 @@ let tuu = 55
 tuu = 66
 
 console.log(foo, fo4o, tuu)
-
-
 const rut = {
   name: 'albert',
 }
-const newRut = {...rut}
+const newRut = {
+  ...rut,
+}
 newRut.name = 'new'
 console.log(rut.name, newRut.name)
+
+const getUser = async () => {
+  try {
+    const res = await fetch('vk.com')
+    const data = await res.json()
+    console.log(data)
+  } catch (e) {
+    console.log(e)
+  }
+}
+getUser()
